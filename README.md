@@ -1,4 +1,4 @@
-#Step 1
+# Step 1
 ### You need to download this folder into my-app because it contains:
 **Link Download** [GoogleDrive-Project ISD](https://drive.google.com/drive/folders/1SQTcaPiX_aEfhbkQ0k5m7tF5X3UvxSNj?usp=sharing)
 
@@ -23,7 +23,7 @@ pip install -r requirements.txt ]
 4. Model File: Also included is a model file named best.onnx, which you will use for your application.
 
 
-#Step 2
+# Step 2
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
