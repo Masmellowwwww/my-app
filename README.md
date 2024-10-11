@@ -11,7 +11,7 @@ Download the Folder: Download the folder that contains all the necessary files.
 Inside the downloaded folder, locate the requirements.txt file.
 Set up your virtual environment named hdrenv and install the required packages by running:
 
-### ` python -m venv hdrenv
+### ` python -m venv hdrenv `
 source hdrenv/bin/activate  # For macOS/Linux
 hdrenv\Scripts\activate  # For Windows
 pip install -r requirements.txt `
@@ -44,9 +44,9 @@ You can run your FastAPI app using uvicorn. In your terminal, navigate to the di
 **--reload**: This option enables auto-reload, so the server restarts whenever you make changes to the code.
 
 ### Access Your Application
-Once the server is running, you should see output indicating that your application is running on http://127.0.0.1:8000. You can access it in your web browser or use tools like curl or Postman.
+Once the server is running, you should see output indicating that your application is running on ` http://127.0.0.1:8000 `. You can access it in your web browser or use tools like curl or Postman.
 
-To see the API documentation (Swagger UI), go to http://127.0.0.1:8000/docs.
+To see the API documentation (Swagger UI), go to ` http://127.0.0.1:8000/docs `.
 
 
 # I hope it works too! If you run into any issues or need help, just let me know! <3 <3 <3
