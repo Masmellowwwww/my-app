@@ -1,3 +1,6 @@
+## All the files that make up the web pages are in the src directory, and the assets that store images are also in the src directory.
+![image](https://github.com/user-attachments/assets/f62ad5e0-f7b0-4d36-9b2a-4bc6a1549800)
+
 # Step 1
 ### You need to download this folder into my-app because it contains:
 **Link Download** [GoogleDrive-Project ISD](https://drive.google.com/drive/folders/1SQTcaPiX_aEfhbkQ0k5m7tF5X3UvxSNj?usp=sharing)
@@ -32,6 +35,7 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 
 # Step 3
 ### Run Your FastAPI Application
