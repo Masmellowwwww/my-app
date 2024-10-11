@@ -1,3 +1,4 @@
+```
 #Step 1
 ### You need to download this folder into my-app because it contains:
 https://drive.google.com/drive/folders/1SQTcaPiX_aEfhbkQ0k5m7tF5X3UvxSNj?usp=sharing
@@ -10,7 +11,7 @@ Download the Folder: Download the folder that contains all the necessary files.
 Inside the downloaded folder, locate the requirements.txt file.
 Set up your virtual environment named hdrenv and install the required packages by running:
 
-```bash
+bash
 python -m venv hdrenv
 source hdrenv/bin/activate  # For macOS/Linux
 hdrenv\Scripts\activate  # For Windows
