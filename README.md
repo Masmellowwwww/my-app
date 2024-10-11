@@ -11,10 +11,10 @@ Download the Folder: Download the folder that contains all the necessary files.
 Inside the downloaded folder, locate the requirements.txt file.
 Set up your virtual environment named hdrenv and install the required packages by running:
 
-[ python -m venv hdrenv
+### ` python -m venv hdrenv
 source hdrenv/bin/activate  # For macOS/Linux
 hdrenv\Scripts\activate  # For Windows
-pip install -r requirements.txt ]
+pip install -r requirements.txt `
 
 2. API File: The downloaded folder contains a file named main.py. This file serves as the API for loading the model, processing it, and sending requests to various web pages.
 
@@ -37,7 +37,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ### Run Your FastAPI Application
 You can run your FastAPI app using uvicorn. In your terminal, navigate to the directory where your main.py file is located and execute the following command:
 
-[ uvicorn main:app --reload ]
+ ### `uvicorn main:app --reload`
 
 **main**: This refers to the name of the Python file without the .py extension.
 **app**: This is the instance of the FastAPI application you created.
