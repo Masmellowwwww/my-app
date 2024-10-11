@@ -9,8 +9,8 @@ Download the Folder: Download the folder that contains all the necessary files.
 
 Inside the downloaded folder, locate the requirements.txt file.
 Set up your virtual environment named hdrenv and install the required packages by running:
-bash
 
+```bash
 python -m venv hdrenv
 source hdrenv/bin/activate  # For macOS/Linux
 hdrenv\Scripts\activate  # For Windows
