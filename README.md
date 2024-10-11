@@ -1,20 +1,20 @@
 #Step 1
 ### You need to download this folder into my-app because it contains:
-https://drive.google.com/drive/folders/1SQTcaPiX_aEfhbkQ0k5m7tF5X3UvxSNj?usp=sharing
+[GoogleDrive](https://drive.google.com/drive/folders/1SQTcaPiX_aEfhbkQ0k5m7tF5X3UvxSNj?usp=sharing)
+
 ![image](https://github.com/user-attachments/assets/ce84f121-43fc-476e-9ae1-f614095d2bf9)
 
 Download the Folder: Download the folder that contains all the necessary files.
 
-```bash
 1. Virtual Environment:
 
 Inside the downloaded folder, locate the requirements.txt file.
 Set up your virtual environment named hdrenv and install the required packages by running:
 
-python -m venv hdrenv
+[ python -m venv hdrenv
 source hdrenv/bin/activate  # For macOS/Linux
 hdrenv\Scripts\activate  # For Windows
-pip install -r requirements.txt
+pip install -r requirements.txt ]
 
 2. API File: The downloaded folder contains a file named main.py. This file serves as the API for loading the model, processing it, and sending requests to various web pages.
 
