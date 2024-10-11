@@ -24,10 +24,6 @@ pip install -r requirements.txt ]
 
 
 # Step 2
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,4 +33,20 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-##I hope it works too! If you run into any issues or need help, just let me know!
+# Step 3
+### Run Your FastAPI Application
+You can run your FastAPI app using uvicorn. In your terminal, navigate to the directory where your main.py file is located and execute the following command:
+
+[ uvicorn main:app --reload ]
+
+**main**: This refers to the name of the Python file without the .py extension.
+**app**: This is the instance of the FastAPI application you created.
+**--reload**: This option enables auto-reload, so the server restarts whenever you make changes to the code.
+
+### Access Your Application
+Once the server is running, you should see output indicating that your application is running on http://127.0.0.1:8000. You can access it in your web browser or use tools like curl or Postman.
+
+To see the API documentation (Swagger UI), go to http://127.0.0.1:8000/docs.
+
+
+# I hope it works too! If you run into any issues or need help, just let me know! <3 <3 <3
