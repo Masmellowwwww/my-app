@@ -20,13 +20,13 @@ hdrenv\Scripts\activate  # For Windows
 pip install -r requirements.txt `
 
 ### 2. API File: 
-The downloaded folder contains a file named **main.py** . This file serves as the API for loading the model, processing it, and sending requests to various web pages.
+The downloaded folder contains a file named `main.py` . This file serves as the API for loading the model, processing it, and sending requests to various web pages.
 
 ### 3. Database File:
-There’s a database file named **User_input.db** included in the folder.
+There’s a database file named `User_input.db` included in the folder.
 
 ### 4. Model File: 
-Also included is a model file named **best.onnx** , which you will use for your application.
+Also included is a model file named `best.onnx` , which you will use for your application.
 
 
 # Step 2
