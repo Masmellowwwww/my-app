@@ -11,7 +11,7 @@ Download the Folder: Download the folder that contains all the necessary files.
 
 ### 1. Virtual Environment:
 
-Inside the downloaded folder, locate the requirements.txt file.
+Inside the downloaded folder, locate the `requirements.txt` file.
 Set up your virtual environment named hdrenv and install the required packages by running:
 
 ### ` python -m venv hdrenv `
