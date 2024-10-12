@@ -9,7 +9,7 @@
 
 Download the Folder: Download the folder that contains all the necessary files.
 
-1. Virtual Environment:
+### 1. Virtual Environment:
 
 Inside the downloaded folder, locate the requirements.txt file.
 Set up your virtual environment named hdrenv and install the required packages by running:
@@ -19,11 +19,14 @@ source hdrenv/bin/activate  # For macOS/Linux
 hdrenv\Scripts\activate  # For Windows
 pip install -r requirements.txt `
 
-2. API File: The downloaded folder contains a file named main.py. This file serves as the API for loading the model, processing it, and sending requests to various web pages.
+### 2. API File: 
+The downloaded folder contains a file named **main.py** . This file serves as the API for loading the model, processing it, and sending requests to various web pages.
 
-3. Database File: There’s a database file named User_input.db included in the folder.
+### 3. Database File:
+There’s a database file named **User_input.db** included in the folder.
 
-4. Model File: Also included is a model file named best.onnx, which you will use for your application.
+### 4. Model File: 
+Also included is a model file named **best.onnx** , which you will use for your application.
 
 
 # Step 2
